@@ -2,11 +2,11 @@ import React from 'react'
 import '../app.css'
 import Toggle from './Toggle'
 
-function Header(props) {
+function Header() {
     return (
         <nav>
             <h1>Curriculum Vitae</h1>
-            <Toggle toggleMode={props.toggleMode}/>
+            <Toggle/>
         </nav>
     )
 }

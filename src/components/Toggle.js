@@ -1,25 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { FiSun, FiMoon } from 'react-icons/fi'
+import { ThemeContext } from '../context/ThemeContext'
 
-
-const initialState = false || JSON.parse(localStorage.getItem('checkbox'))
-
-const Toggle = (props) => {
-    const [checkBox, setCheckBox] = useState(initialState)
-
-    const toggleDarkMode = () => {
-        setCheckBox(prevState => !prevState)
-        props.toggleMode()
-    }
-
-    useEffect(() => {
-        localStorage.setItem('checkbox', JSON.stringify(checkBox))
-    }, [checkBox])
+const Toggle = () => {
+    const { darkMode, toggleMode } = useContext(ThemeContext)
 
     return (
         <div className="toggles">
             <label>
-                <input className='toggle-checkbox' type='checkbox' checked={checkBox} onChange={toggleDarkMode}></input>
+                <input className='toggle-checkbox' type='checkbox' checked={darkMode} onChange={toggleMode}></input>
                 <div className='toggle-slot'>
                     <div className='sun-icon-wrapper'>
                         <FiSun className="iconify sun-icon" />

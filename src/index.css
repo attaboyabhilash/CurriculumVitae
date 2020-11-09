@@ -29,6 +29,18 @@ body {
   color: #FFF;
 }
 
+.light-mode a{
+  color: #121212;
+}
+
+.dark-mode a{
+  color: #F4F4F4;
+}
+
+a{
+  text-decoration: none;
+}
+
 nav{
   position: relative;
 }
@@ -37,4 +49,99 @@ nav h1{
   font-size: 1.6em;
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.resume-header{
+  margin-top: 25px;
+}
+
+.resume-header img{
+  width: 90%;
+}
+
+.resume-content-dark{
+  margin: -10px auto;
+  margin-bottom: 25px;
+  width: 90%;
+  height: 900px;
+  background-color: #333;
+}
+
+.resume-content-light{
+  margin: -10px auto;
+  margin-bottom: 25px;
+  width: 90%;
+  height: 900px;
+  background-color: #FFF;
+  border-left: 1px solid #121212;
+  border-right: 1px solid #121212;
+  border-bottom: 1px solid #121212;
+}
+
+
+.footer{
+  background-color: #121212;
+  color: #F4F4F4;
+  text-align: center;
+  padding: 25px;
+  padding-bottom: 15px;
+}
+
+.footer img{
+  width: 175px;
+}
+
+.heart{
+  color: #FF0000;
+}
+
+.twitter, .github, .linkedin {
+  font-size: 2em;
+  padding: 5px;
+}
+
+.github{
+  color: #F4F4F4;
+}
+
+.twitter{
+  color: #00ACEE;
+  position: relative;
+  z-index: 2;
+}
+
+.twitter__{
+  position: relative;
+}
+
+.twitter__:before{
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #F4F4F4;
+  z-index: 1;
+  top: -6px;
+  left: 8.5px;
+}
+
+.linkedin{
+  color: #0E76A8;
+  position: relative;
+  z-index: 2;
+}
+
+.linkedin__{
+  position: relative;
+}
+
+.linkedin__:before{
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #F4F4F4;
+  z-index: 1;
+  top: -6px;
+  left: 8.5px;
 }

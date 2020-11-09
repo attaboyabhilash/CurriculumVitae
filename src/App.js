@@ -1,24 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Header from './components/Header'
-
-const initialState = false || JSON.parse(localStorage.getItem('theme'))
+import ResumeHeader from './components/ResumeHeader'
+import ResumeContent from './components/ResumeContent'
+import Footer from './components/Footer'
+import { ThemeContext } from './context/ThemeContext'
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(initialState)
-  
-  const toggleMode = () => {
-    setDarkMode(prevDarkMode => !prevDarkMode)
-  }
-
-  useEffect(() => {
-    localStorage.setItem('theme', JSON.stringify(darkMode))
-  }, [darkMode])
-
-
+  const { darkMode } = useContext(ThemeContext)
   return (
-    <div className={darkMode ? "dark-mode container" : "light-mode container"}>
-      <Header toggleMode={toggleMode}/>
-    </div>
+      <>
+      <div className={darkMode ? "dark-mode container" : "light-mode container"}>
+        <Header/>
+        <ResumeHeader />
+        <ResumeContent />
+      </div>
+      <Footer />
+      </>
   )
 }
 
