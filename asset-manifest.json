@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CurriculumVitae/static/css/main.38f8daa3.chunk.css",
+    "main.js": "/CurriculumVitae/static/js/main.bc66487a.chunk.js",
+    "main.js.map": "/CurriculumVitae/static/js/main.bc66487a.chunk.js.map",
+    "runtime-main.js": "/CurriculumVitae/static/js/runtime-main.948dabf1.js",
+    "runtime-main.js.map": "/CurriculumVitae/static/js/runtime-main.948dabf1.js.map",
+    "static/js/2.772acb32.chunk.js": "/CurriculumVitae/static/js/2.772acb32.chunk.js",
+    "static/js/2.772acb32.chunk.js.map": "/CurriculumVitae/static/js/2.772acb32.chunk.js.map",
+    "index.html": "/CurriculumVitae/index.html",
+    "static/css/main.38f8daa3.chunk.css.map": "/CurriculumVitae/static/css/main.38f8daa3.chunk.css.map",
+    "static/js/2.772acb32.chunk.js.LICENSE.txt": "/CurriculumVitae/static/js/2.772acb32.chunk.js.LICENSE.txt",
+    "static/media/Abhilash_CV_Dark.e4d8f8b4.docx": "/CurriculumVitae/static/media/Abhilash_CV_Dark.e4d8f8b4.docx",
+    "static/media/Abhilash_CV_Light.a2b5a97b.docx": "/CurriculumVitae/static/media/Abhilash_CV_Light.a2b5a97b.docx",
+    "static/media/Logo.2d11def2.svg": "/CurriculumVitae/static/media/Logo.2d11def2.svg",
+    "static/media/ResumeHeaderDark.bf51f3a0.svg": "/CurriculumVitae/static/media/ResumeHeaderDark.bf51f3a0.svg",
+    "static/media/ResumeHeaderLight.eed1dcb5.svg": "/CurriculumVitae/static/media/ResumeHeaderLight.eed1dcb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.948dabf1.js",
+    "static/js/2.772acb32.chunk.js",
+    "static/css/main.38f8daa3.chunk.css",
+    "static/js/main.bc66487a.chunk.js"
+  ]
+}
