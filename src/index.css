@@ -73,6 +73,7 @@ nav h1{
   font-size: 0.9em;
   padding: 30px 50px;
   display: flex;
+  padding-bottom: 100px;
   justify-content: space-between;
 }
 
@@ -100,6 +101,18 @@ ul{
 .small-container a{
   color: #0275aa;
   text-decoration: underline;
+}
+
+.dark-mode .small-container ul li{
+  color: #DDD;
+}
+
+.small-container span{
+  color: #FC7575;
+}
+
+.right{
+  width: 320px;
 }
 
 .download-resume{
