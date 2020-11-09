@@ -11,16 +11,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: linear 450ms ease-in-out;
 }
 
 .container{
   text-align: center;
   padding: 20px 20%;
   position: relative;
+  transition: all 400ms ease-in-out
 }
 
 .light-mode{
-  background-color: #FFF;
+  background-color: #F4F4F4;
   color: #121212;
 }
 
@@ -93,9 +95,6 @@ ul{
   margin-bottom: 25px;
   width: 90%;
   background-color: #FFF;
-  border-left: 1px solid #121212;
-  border-right: 1px solid #121212;
-  border-bottom: 1px solid #121212;
 }
 
 .small-container a{

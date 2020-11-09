@@ -10,9 +10,7 @@ function ResumeHeader() {
             {darkMode ? 
                 <img src={RHD} alt="rhd" /> 
                 : 
-                <img src={RHL} alt="rhl" 
-                    style={{borderLeft: "1px solid #121212", borderRight: "1px solid #121212"}}
-                />
+                <img src={RHL} alt="rhl" />
             }
         </div>
     )
