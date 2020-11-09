@@ -28,10 +28,10 @@
 }
     
 .toggle-button {
-  transform: translate(0.8em, -0.15em);
+  transform: translate(0.8em, -0.13em);
   position: absolute;
-  height: 1em;
-  width: 1em;
+  height: 0.95em;
+  width: 0.95em;
   border-radius: 50%;
   background-color: #212121;
   box-shadow: inset 0px 0px 0px 0.1em #121212;
@@ -41,7 +41,7 @@
 .toggle-checkbox:checked ~ .toggle-slot .toggle-button {
   background-color: #212121;
   box-shadow: inset 0px 0px 0px 0.75em white;
-  transform: translate(-0.3em, -0.15em);
+  transform: translate(-0.17em, -0.12em);
 }
     
 .sun-icon {
@@ -78,12 +78,12 @@
   height: 1em;
   width: 1em;
   opacity: 0;
-  transform: translate(0.45em, 0.15em) rotate(0deg);
+  transform: translate(0.50em, 0.15em) rotate(0deg);
   transform-origin: 50% 50%;
   transition: opacity 150ms, transform 500ms cubic-bezier(.26,2.5,.46,.71);
 }
     
 .toggle-checkbox:checked ~ .toggle-slot .moon-icon-wrapper {
   opacity: 1;
-  transform: translate(0.45em, 0.15em) rotate(-15deg);
+  transform: translate(0.50em, 0.15em) rotate(-15deg);
 }

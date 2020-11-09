@@ -111,7 +111,7 @@ ul{
 }
 
 .right{
-  width: 320px;
+  width: 350px;
 }
 
 .download-resume{
@@ -135,9 +135,9 @@ ul{
   background-color: aqua;
 }
 
-
-
-
+hr{
+  border: none;
+}
 .footer{
   background-color: #121212;
   color: #F4F4F4;
@@ -180,7 +180,7 @@ ul{
   height: 15px;
   background-color: #F4F4F4;
   z-index: 1;
-  top: -6px;
+  top: -8px;
   left: 8.5px;
 }
 
@@ -198,9 +198,60 @@ ul{
   position: absolute;
   content: "";
   width: 15px;
-  height: 15px;
+  height: 17px;
   background-color: #F4F4F4;
   z-index: 1;
-  top: -6px;
+  top: -8px;
   left: 8.5px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .container{
+    padding: 20px 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container{
+    padding: 20px 10px;
+  }
+  h2{
+    font-size: 1.2em;
+  }
+  .small-container ul li{
+    font-size: 0.8em;
+  }
+  .right{
+    width: auto;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .container{
+    padding: 20px 5px;
+  }
+  .resume{
+    display: block;
+    padding: 20px 32px;
+  }
+  .right{
+    margin: auto;
+  }
+  .download-resume{
+    margin: auto;
+  }
+  .small-container ul li{
+    word-break: break-all;
+  }
+  .footer img{
+    width: 100px;
+  }
+  .footer p{
+    font-size: 0.65em;
+  }
+  .download-resume span{
+    font-size: 0.9em;
+  }
 }
