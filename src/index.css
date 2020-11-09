@@ -41,6 +41,15 @@ a{
   text-decoration: none;
 }
 
+h2{
+  border-bottom: 2px solid #121212;
+  width: fit-content;
+}
+
+.dark-mode h2{
+  border-bottom: 2px solid #FFF;
+}
+
 nav{
   position: relative;
 }
@@ -59,11 +68,22 @@ nav h1{
   width: 90%;
 }
 
+.resume{
+  text-align: left;
+  font-size: 0.9em;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  padding-left: 15px;
+}
+
 .resume-content-dark{
   margin: -10px auto;
   margin-bottom: 25px;
   width: 90%;
-  height: 900px;
   background-color: #333;
 }
 
@@ -71,12 +91,39 @@ nav h1{
   margin: -10px auto;
   margin-bottom: 25px;
   width: 90%;
-  height: 900px;
   background-color: #FFF;
   border-left: 1px solid #121212;
   border-right: 1px solid #121212;
   border-bottom: 1px solid #121212;
 }
+
+.small-container a{
+  color: #0275aa;
+  text-decoration: underline;
+}
+
+.download-resume{
+  width: fit-content;
+  margin: 0px 47px 50px auto;
+}
+
+.download-resume span{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-resume{
+  border: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: #40E0D0;
+}
+.button-resume:hover{
+  background-color: aqua;
+}
+
+
 
 
 .footer{
